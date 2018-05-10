@@ -1,0 +1,26 @@
+<beans projectname="sitemanager" depends="entermedia">
+
+
+<bean id="PaymentModule" class="org.entermedia.sitemanager.PaymentModule">
+</bean>
+<bean id="SiteModule" class="org.entermedia.sitemanager.SiteModule">
+</bean>
+<bean id="siteManager" class="org.entermedia.sitemanager.SiteManager" scope="prototype">
+</bean>
+<bean id="SSLModule" class="org.entermedia.sslcertificates.SSLModule">
+</bean>
+<bean id="sslManager" class="org.entermedia.sslcertificates.SSLManager" scope="prototype">
+</bean>
+<bean id="SpeedModule" class="org.entermedia.speedtest.SpeedModule">
+</bean>
+<bean id="speedManager" class="org.entermedia.speedtest.SpeedManager" scope="prototype">
+</bean>
+<bean id="ClientActivityModule" class="org.entermedia.clientactivity.ClientActivityModule">
+</bean>
+<bean id="clientActivityManager" class="org.entermedia.clientactivity.ClientActivityManager" scope="prototype">
+</bean>
+
+
+</beans>
+
+ 

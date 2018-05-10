@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<trial_serverss>
+  <trial_servers id="mediadb24" name="mediadb24" dockersubnet="50" serverurl="mediadb24.entermediadb.net" serverrealname="Mediadb24" timezoneregion="A" servergate="mediadb08.entermediadb.net">Mediadb 24</trial_servers>
+  <trial_servers id="mediadb20" name="mediadb20" dockersubnet="21" serverurl="mediadb20.entermediadb.net" serverrealname="Mediadb20" timezoneregion="B" servergate="mediadb20.entermediadb.net">Mediadb 20</trial_servers>
+  <trial_servers id="mediadb08" name="mediadb08" dockersubnet="50" serverurl="mediadb24.entermediadb.net" serverrealname="Mediadb24" timezoneregion="A" servergate="mediadb08.entermediadb.net">Mediadb 24</trial_servers>
+  <trial_servers id="mediadb01" name="mediadb01" dockersubnet="50" serverurl="mediadb24.entermediadb.net" serverrealname="Mediadb24" timezoneregion="A" servergate="mediadb08.entermediadb.net">Mediadb 24</trial_servers>
+</trial_serverss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timezones>
+  <timezone id="GMT+08:00" name="Beijing, Perth, Singapore, Hong Kong" timezoneregion="A">Beijing, Perth, Singapore, Hong Kong</timezone>
+  <timezone id="GMT-01:00" name="Azores, Cape Verde Islands" timezoneregion="B">Azores, Cape Verde Islands</timezone>
+  <timezone id="GMT-12:00" name="Eniwetok, Kwajalein" timezoneregion="A">Eniwetok, Kwajalein</timezone>
+  <timezone id="GMT+05:75" name="Kathmandu, Pokhara" timezoneregion="B">Kathmandu, Pokhara</timezone>
+  <timezone id="GMT-03:50" name="Newfoundland"  timezoneregion="A">Newfoundland</timezone>
+  <timezone id="GMT-04:50" name="Caracas" timezoneregion="A">Caracas</timezone>
+  <timezone id="GMT+03:50" name="Tehran" timezoneregion="B">Tehran</timezone>
+  <timezone id="GMT+08:75" name="Eucla" timezoneregion="A">Eucla</timezone>
+  <timezone id="GMT-06:00" name="Central Time (US &amp; Canada), Mexico City" timezoneregion="A">Central Time (US &amp; Canada), Mexico City</timezone>
+  <timezone id="GMT+05:00" name="Ekaterinburg, Islamabad, Karachi, Tashkent" timezoneregion="B">Ekaterinburg, Islamabad, Karachi, Tashkent</timezone>
+  <timezone id="GMT+12:00" name="Auckland, Wellington, Fiji, Kamchatka" timezoneregion="A">Auckland, Wellington, Fiji, Kamchatka</timezone>
+  <timezone id="GMT-03:00" name="Brazil, Buenos Aires, Georgetown" timezoneregion="A">Brazil, Buenos Aires, Georgetown</timezone>
+  <timezone id="GMT-07:00" name="Mountain Time (US &amp; Canada)" timezoneregion="A">Mountain Time (US &amp; Canada)</timezone>
+  <timezone id="GMT+03:00" name="Baghdad, Riyadh, Moscow, St. Petersburg" timezoneregion="B">Baghdad, Riyadh, Moscow, St. Petersburg</timezone>
+  <timezone id="GMT+10:00" name="Eastern Australia, Guam, Vladivostok" timezoneregion="A">Eastern Australia, Guam, Vladivostok</timezone>
+  <timezone id="GMT+05:50" name="Bombay, Calcutta, Madras, New Delhi" timezoneregion="B">Bombay, Calcutta, Madras, New Delhi</timezone>
+  <timezone id="GMT+01:00" name="Brussels, Copenhagen, Madrid, Paris" timezoneregion="B">Brussels, Copenhagen, Madrid, Paris</timezone>
+  <timezone id="GMT+07:00" name="Bangkok, Hanoi, Jakarta" timezoneregion="B">Bangkok, Hanoi, Jakarta</timezone>
+  <timezone id="GMT+06:00" name="Almaty, Dhaka, Colombo" timezoneregion="B">Almaty, Dhaka, Colombo</timezone>
+  <timezone id="GMT+09:50" name="Adelaide, Darwin" timezoneregion="A">Adelaide, Darwin</timezone>
+  <timezone id="GMT+12:75" name="Chatham Islands" timezoneregion="A">Chatham Islands</timezone>
+  <timezone id="GMT-09:00" name="Alaska" timezoneregion="A">Alaska</timezone>
+  <timezone id="GMT+02:00" name="Kaliningrad, South Africa" timezoneregion="B">Kaliningrad, South Africa</timezone>
+  <timezone id="GMT+10:50" name="Lord Howe Island" timezoneregion="A">Lord Howe Island</timezone>
+  <timezone id="GMT-09:50" name="Taiohae" timezoneregion="A">Taiohae</timezone>
+  <timezone id="GMT+04:50" name="Kabul" timezoneregion="B">Kabul</timezone>
+  <timezone id="GMT+11:00" name="Magadan, Solomon Islands, New Caledonia" timezoneregion="A">Magadan, Solomon Islands, New Caledonia</timezone>
+  <timezone id="GMT+04:00" name="Abu Dhabi, Muscat, Baku, Tbilisi" timezoneregion="B">Abu Dhabi, Muscat, Baku, Tbilisi</timezone>
+  <timezone id="GMT+14:00" name="Line Islands, Tokelau" timezoneregion="A">Line Islands, Tokelau</timezone>
+  <timezone id="GMT-11:00" name="Midway Island, Samoa" timezoneregion="A">Midway Island, Samoa</timezone>
+  <timezone id="GMT+13:00" name="Apia, Nukualofa" timezoneregion="A">Apia, Nukualofa</timezone>
+  <timezone id="GMT-02:00" name="Mid-Atlantic" timezoneregion="A">Mid-Atlantic</timezone>
+  <timezone id="GMT+06:50" name="Yangon, Mandalay" timezoneregion="B">Yangon, Mandalay</timezone>
+  <timezone id="GMT+11:50" name="Norfolk Island" timezoneregion="A">Norfolk Island</timezone>
+  <timezone id="GMT+00:00" name="Western Europe Time, London, Lisbon, Casablanca" timezoneregion="B">Western Europe Time, London, Lisbon, Casablanca</timezone>
+  <timezone id="GMT-05:00" name="Eastern Time (US &amp; Canada), Bogota, Lima" timezoneregion="A">Eastern Time (US &amp; Canada), Bogota, Lima</timezone>
+  <timezone id="GMT-04:00" name="Atlantic Time (Canada), Caracas, La Paz" timezoneregion="A">Atlantic Time (Canada), Caracas, La Paz</timezone>
+  <timezone id="GMT+09:00" name="Tokyo, Seoul, Osaka, Sapporo, Yakutsk" timezoneregion="A">Tokyo, Seoul, Osaka, Sapporo, Yakutsk</timezone>
+  <timezone id="GMT-08:00" name="Pacific Time (US &amp; Canada)" timezoneregion="A">Pacific Time (US &amp; Canada)</timezone>
+  <timezone id="GMT-10:00" name="Hawaii" timezoneregion="A">Hawaii</timezone>
+</timezones>

@@ -1,0 +1,9 @@
+<page>
+<property name="eventname">Monitor sites for client activity</property>	
+	<property name="eventdescription">Check client activity</property>	
+<path-action name="ClientActivityModule.checkActivity">
+</path-action>
+  	<property name="period">1d</property>
+  
+<property name="virtual">true</property>
+</page>
