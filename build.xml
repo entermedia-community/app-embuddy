@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project basedir="." default="default" name="app-site-manager">
+<project basedir="." default="default" name="app-embuddy">
 
   <target name="default" depends="clean,  update-dependencies, compile,  jar, zip, publish"/>
   <target name="dependency" depends="default"/>
@@ -104,7 +104,7 @@
 			<zipfileset dir="${lib}" prefix="lib" excludes="compile/**"/>
 			
 			<zipfileset dir="${deployDir}/builds/" includes="${branch}${appname}-${version}.jar" prefix="lib"/>
-			<zipfileset dir="${webapp}/WEB-INF/base/sitemanager" prefix="base/sitemanager" />
+			<zipfileset dir="${webapp}/WEB-INF/base/embuddy" prefix="base/embuddy" />
 			
 		</zip>
   </target>
@@ -148,28 +148,20 @@
   </target>
   
 	<target name="publish" depends=" zip">
-		  
 			<!-- publish results to anthill -->
-		 	<copy file="${deployDir}/builds/app-site-manager.zip" overwrite="true"
-		        tofile="${deployDir}/app-site-manager.zip"/>
+		 	<copy file="${deployDir}/builds/app-embuddy.zip" overwrite="true"
+		        tofile="${deployDir}/app-embuddy.zip"/>
 			<copy overwrite="true"  file="${etc}/install.js" 
 				    tofile="${deployDir}/install.js">
 				 		 <filterset>
 				 		      <filter token="BRANCH" value="${branch}"/>
 				 		    </filterset>
 		 	</copy>	
-		 	<copy file="${etc}/sitemanager.xml" overwrite="true"
-					        tofile="${deployDir}/sitemanager.xml">
+		 	<copy file="${etc}/embuddy.xml" overwrite="true"
+					        tofile="${deployDir}/embuddy.xml">
 					 <filterset>
 					      <filter token="BRANCH" value="${branch}"/>
 				    </filterset>
 			</copy>
-		
-
-			
-		</target>
-	  
-  
-  
- 
+	</target>
 </project>
