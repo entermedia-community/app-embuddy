@@ -7,7 +7,7 @@ importPackage( Packages.org.entermediadb.modules.update );
 
 
 
-var name = "app-site-manager";
+var name = "app-embuddy";
 
 var war = "http://dev.entermediasoftware.com/jenkins/job/@BRANCH@" + name + "/lastSuccessfulBuild/artifact/deploy/" + name + ".zip";
 
@@ -21,11 +21,11 @@ log.info("1. GET THE LATEST WAR FILE");
 
 log.info("1. GET THE LATEST WAR FILE");
 var downloader = new Downloader();
-downloader.download( war, tmp + "/app-site-manager.zip");
+downloader.download( war, tmp + "/app-embuddy.zip");
 
 log.info("2. UNZIP WAR FILE");
 var unziper = new ZipUtil();
-unziper.unzip(  tmp + "/app-site-manager.zip",  tmp );
+unziper.unzip(  tmp + "/app-embuddy.zip",  tmp );
 
 
 //log.info("3. Copy Over Site " + tmp + "/unzip/" + " " + "to " + root);
@@ -38,7 +38,7 @@ var files = new FileUtils();
 //files.deleteMatch( web + "/lib/stax*.jar");
 //files.deleteMatch( web + "/lib/woodstock*.jar");
 //files.deleteMatch( web + "/lib/xmlsec*.jar");
-files.deleteMatch( web + "/lib/@BRANCH@app-site-manager*.jar");
+files.deleteMatch( web + "/lib/@BRANCH@app-embuddy*.jar");
 files.deleteMatch( web + "/lib/stripe*.jar");
 
 //
@@ -47,16 +47,8 @@ files.deleteMatch( web + "/lib/stripe*.jar");
 files.copyFileByMatch( tmp + "/lib/*.jar", web + "/lib/");
 
 
-files.deleteMatch( web + "/WEB-INF/base/sitemanager/")
-files.copyFileByMatch( tmp + "/base/sitemanager/", root + "/WEB-INF/base/sitemanager/");
-
-
-
-files.deleteMatch( web + "/WEB-INF/base/oi/")
-files.deleteMatch( web + "/WEB-INF/base/oi-admin/")
-files.copyFileByMatch( tmp + "/base/oi/", root + "/WEB-INF/base/oi/");
-files.copyFileByMatch( tmp + "/base/oi-admin/", root + "/WEB-INF/base/oi-admin/");
-
+files.deleteMatch( web + "/WEB-INF/base/embuddy/")
+files.copyFileByMatch( tmp + "/base/embuddy/", root + "/WEB-INF/base/embuddy/");
 
 log.info("5. CLEAN UP");
 files.deleteAll(tmp);
